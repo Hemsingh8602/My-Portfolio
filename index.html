@@ -3,59 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Potfolio</title>
+    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome to My World</h1>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi commodi modi nam fugit sed, omnis voluptatem recusandae.</p>
-    
+
+    <nav class="navigation container">
+        <div class="nav-brand">I_AM_A_PROGRAMMER<div>
+        <ul class="list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link link-active" href="#">Home</a>
+            </li>
+            <li class="list-item-inline">
+            <a class="link" href="#project">Projects</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="#blogs">Blogs</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="#connect">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <img src="images/hero.svg" alt="" class="hero-img">
+        <h1 class="hero-heading">Hi! I am <strong style="color: blue;">Hemsingh Makwana</strong></h1>
+    </header>
+
+    <section class="section">
+            <h2>Technologies</h2>
+            <p>I'm familiar with HTML5, CSS3, Git, JavaScript, NodeJS, ReactJS, and Web Hosting</p>
+    </section>
     <hr>
-
-    <h2>@typography</h2>
-<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, quisquam! Fugit!</p>
-<small>small text</small>
-<hr>
-<h2>@container</h2>
-<div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </div>
-<hr>
-<h2>@links</h2>
-<a href="#">primary link</a>
-<a href="">secondary  link</a>
-<hr>
-<h2>@list</h2>
-<h3>order list</h3>
-<h3>unorder list</h3>
-<hr>
-<h2>@nav</h2>
-<nav>
-    <div>brand</div>
-    <ul>
-        <li>
-            <a href="">home</a>
-        </li>
-        <li>
-            <a href="">project</a>
-        </li>
-        <li>
-            <a href="">blog</a>
-        </li>
-    </ul>
-</nav>
-<hr>
-<h2>@header</h2>
-<header>
-    <img src="images/hero.svg" alt="">
-    <h1>heading inside hero</h1>
-</header>
-<hr>
-<h1>@section</h1>
-<section>
-    
-</section>
-
-
-
-
-<footer style="height: 30vh;"></footer>
+    <section class="section" id="project">
+            <h2>Projects</h2>
+            <p>I like to showcase my work and thus, you can see my projects hosted online</p>
+            <a href="projects.html" class="link primary-link">Browse Projects</a>
+    </section>
+    <hr>
+    <section class="section" id="blogs">
+            <h2>Blogs</h2>
+            <p>I am also working on some technical and non techincal blogs. I like to document my journey of learning.</p>
+            <a href="blogs.html" class="link primary-link">Browse Blogs</a>
+    </section>
+    <hr>
+    <footer class="footer" id="connect">
+        <div class="footer-header">Connect Socially</div>
+        <ul class="social-links ">
+            <li class="list-item-inline"><a class="link" href="/">LinkedIn</a></li>
+            <li class="list-item-inline"><a class="link" href="/">Github</a></li>
+            <li class="list-item-inline"><a class="link" href="/">Twitter</a></li>
+        </ul>
+    </footer>
 </body>
 </html>
